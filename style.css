@@ -1,0 +1,337 @@
+.main{
+    width: 800px;
+    height: 1000px;
+    background: #000;
+    margin-top: 50px;
+}
+.nav{
+    height: 50px;
+    width: 808px; 
+    background-color: #3a3a3a;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+.head{
+    width: 800px;
+    height: 400px;
+    background: wheat;
+    background-image: url(hoteltop.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}.pic{
+    width: 800px;
+    height: 250px;
+    background: white;
+}
+.book{
+    width: 800px;
+    height: 380px;
+    background-color: rgb(250, 245, 245);
+    position: relative;
+}
+.rate{
+    width: 800px;
+    height: 100px;
+    background: white;
+}
+.nav p{
+  float: left;
+  margin: 0px;
+  margin-left: 100px;
+  line-height: 50px;
+  color: aliceblue;
+
+}
+.nav ul li{
+      float: right;
+     list-style: none;
+     padding-left: 20px;
+     
+     padding-right: 20px;
+   
+}
+.nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(174, 166, 7);
+    cursor: pointer;
+}
+.h1{
+    width: 400px;
+    height: 250px;
+    background: #c8a0a0;
+    float: left;
+    background-image: url(hotelgoverner.avif);
+    background-size: 100% 100%;
+}
+.h2{
+    width: 400px;
+    height: 250px;
+    background: #030303;
+    float: left;
+}
+.book1{
+    width: 600px;
+    height: 320px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.book1 h2{
+    color: rgb(3, 3, 3);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.bed{
+    width:290px;
+    height: 260px;
+    background: white;
+    float: left;
+    margin: 5px;
+}
+
+.bed1{
+    width: 140px;
+    height: 125px;
+    background: white;
+    float: left;
+    margin: 5px;
+    background-image: url(bed1.jpg);
+    background-size: 100% 100%;
+}
+.bed2{
+    width: 140px;
+    height: 125px;
+    background: white;
+    float: left;
+    margin: 5px;
+    background-image: url(bed2.webp);
+    background-size: 100% 100%;
+}
+
+.bed3{
+    width: 140px;
+    height: 125px;
+    background: white;
+    float: left;
+    margin: 5px;
+    background-image: url(bed3.jpg);
+    background-size: 100% 100%;
+}
+
+.bed4{
+    width: 140px;
+    height: 125px;
+    background: white;
+    float: left;
+    margin: 5px;
+    background-image: url(bed4.jpg);
+    background-size: 100% 100%;
+}
+.bed2, .bed3, .bed4, .bed1 {
+    box-sizing: border-box;
+}
+
+.bed2:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.bed3:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.bed4:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.bed1:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.a{
+    width: 290px;
+    height: 150px;
+    background: #e97373;
+    background-image: url(bed.webp);
+    background-size: 100% 100%;
+}
+.h2 h3{
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h2 p{
+    color: aliceblue;
+    float: left;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.h2 input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    border-radius: 8px;
+    font-size: xx-small;
+    width: 100px;
+    height: 25px;
+    background-color: #646363;
+    border: none;
+    color: white;
+}
+.h2 input:hover{
+    width: 110px;
+    height: 27px;
+    cursor: pointer;
+}
+.head h1{
+    margin: 0px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 240px;
+    color: white;
+}
+.check{
+    width: 403px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: 150px;
+    float: left;
+}
+.one{
+    width: 100px;
+    height: 80px;
+    background: #fcfafa;
+    float: left;
+    border-right: 1px solid black;
+}
+.one h1{
+    color: #000;
+}
+
+.one h1:hover{
+    color: white;
+    background-color: #444141;
+    cursor: pointer;
+}
+.two{
+    width: 100px;
+    height: 80px;
+    background: #fcfafa;
+    float: left;
+    border-right: 1px solid black;
+}
+.two h1{
+    color: #000;
+}
+
+.two h1:hover{
+    color: white;
+    background-color: #444141;
+    cursor: pointer;
+}
+.three{
+    width: 100px;
+    height: 80px;
+    background: #fcfafa;
+    float: left;
+    border-right: 1px solid black;
+}
+.three h1{
+    color: #000;
+}
+
+.three h1:hover{
+    color: white;
+    background-color: #444141;
+    cursor: pointer;
+}
+.four{
+    width: 100px;
+    height: 80px;
+    background: #010101;
+    float: left;
+}
+.four p:hover{
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.rate{
+    width: 800px;
+    height: 300px;
+    background-image: url(hotel.jpeg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.a1{
+    width:150px;
+    height: 200px;
+    background: #000;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 100px;
+    float: left;
+}
+.a2{
+    width:150px;
+    height: 200px;
+    background: #000;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 260px;
+    float: left;
+}
+.a3{
+    width:150px;
+    height: 200px;
+    background: #000;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 420px;
+    float: left;
+}
+.a4{
+    width:150px;
+    height: 200px;
+    background: #000;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 580px;
+    float: left;
+}
+.b2, .b3, .b4, .b1 {
+    box-sizing: border-box;
+}
+
+.b2:hover {
+    border: 2px solid rgb(248, 249, 248);
+    cursor: pointer;
+}
+
+.b3:hover {
+    border: 2px solid rgb(255, 254, 254);
+    cursor: pointer;
+}
+
+.b4:hover {
+    border: 2px solid rgb(251, 250, 250);
+    cursor: pointer;
+}
+
+.b1:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
